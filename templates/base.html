@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+	<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet"> 
+
+	{% block head %} {% endblock %}
+</head>
+<body>
+
+<div class="container-fluid">
+	<br><br>
+
+	<div class="row">
+
+		<div class="col-lg-6 mb-4">
+
+<a href="/"><img src="{{ url_for('static', filename='img/holla_grey.png') }}" class="img-fluid"></a>
+
+		</div>
+
+		<div class="col-lg-6 mb-4">
+	
+	{% block body %} {% endblock %}
+
+		</div> <!-- END COL -->
+
+	</div> <!-- END ROW -->
+
+	<hr>
+
+	<div class="row">
+		<div class="col-lg-1 mb-4"></div>
+
+		<div class="col-lg-10 mb-4">
+
+		<p>Welcome to HOLLA IF YA HEAR ME!</p> 
+		<p>Inspired by <a href="https://steveothecripplingaddictions.bandcamp.com/" target="_blank">Steveo</a>'s shit-stirring facebook posts, and wanting to build another quick web app for fun, I put this together for your enjoyment.</p>
+		<p>Simply <strong><a href="/">refresh the page</a></strong> and feast your eyes upon another paradigm-smashing hot take.</p>
+
+		</div>
+
+		<div class="col-lg-1 mb-4"></div>
+
+	</div>
+
+</div>
+
+
+	    <!-- Footer -->
+    <footer class="py-5 bg-dark">  
+      <div class="container">
+        <p class="m-0 text-center text-white">&copy; <a href="https://www.craigdoesdata.de" target="_blank">Craig Dickson</a> 2020</p>
+        <!--Twitter-->
+        <div align="center">
+        <p style="color:#007bff">
+          <a href="http://www.twitter.com/craigdoesdata" target="_blank" class="fa fa-twitter"></a> | 
+          <!--GitHub-->
+          <a href="https://github.com/thecraigd" target="_blank" class="fa fa-github"></a> | 
+          <!--Medium-->
+          <a href="https://medium.com/@thecraigdickson" target="_blank" class="fa fa-medium"></a> | 
+          <!--LinkedIn-->
+          <a href="https://www.linkedin.com/in/dicksoncraig/" target="_blank" class="fa fa-linkedin"></a>
+        </p>
+      </div>
+      </div>
+
+    </footer>
+
+</body>
+</html>

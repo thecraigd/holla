@@ -1,0 +1,34 @@
+body {
+	margin: 0;
+	font-family: 'Syne', sans-serif;
+	background-color: #eaeded  ;
+}
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centred {
+	margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.bg-dark {
+    background-color: #839192 !important;
+}
+
+a {
+  color:#2fdfdf;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Creepster', cursive;
+}
+
+.text_output {
+  line-height: 100%;
+}
