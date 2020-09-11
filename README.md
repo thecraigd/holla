@@ -1,6 +1,6 @@
 [![CraigDoesData][logo]][link]
 
-[logo]: ./img/logo.png
+[logo]: ./logo.png
 [link]: https://www.craigdoesdata.de/
 
 
