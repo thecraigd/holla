@@ -26,6 +26,7 @@ I had varying reactions to these posts depending on their content, but in genera
 * [Flask](https://flask.palletsprojects.com/en/1.1.x/)
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Heroku](https://www.heroku.com)
 
 
 ## Contact
